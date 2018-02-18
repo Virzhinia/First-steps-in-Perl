@@ -1,0 +1,30 @@
+table {
+	border-collapse: collapse;
+}
+
+table th {
+	text-align: center;
+	background-color: #3a6070;
+	color:#FFF;
+	padding: 8px 30px 8px 8px;
+}
+
+table th:hover {
+	color: #ffc34d;
+}
+
+table td {
+	text-align:center;
+	border: 1px solid #e3e3e3;
+	padding: 8px 8px;
+}
+
+
+table tr:nth-child(odd) {
+	background-color: #e7edf0;
+}
+
+
+table tr:hover {
+	background-color:#ffff99;
+}
