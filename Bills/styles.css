@@ -1,0 +1,95 @@
+.navbar {
+    background-color: #3a6070;
+    font-family: Arial;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+ 
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e7edf0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #e60000;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+}
+
+table th {
+	text-align: center;
+	background-color: #3a6070;
+	color:#FFF;
+	padding: 8px 30px 8px 8px;
+}
+
+table th:hover {
+	color: #ffc34d;
+}
+
+table td {
+	text-align:center;
+	border: 1px solid #e3e3e3;
+	padding: 8px 8px;
+}
+
+
+table tr:nth-child(odd) {
+	background-color: #e7edf0;
+}
+
+
+table tr:hover {
+	background-color:#ffff99;
+}
